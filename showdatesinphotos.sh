@@ -1,4 +1,26 @@
 #!/bin/bash
+###############################################################################
+#
+# Sub-Etha Software's FInd Dates in Photos
+# created (mostly) by chat.chatgpt.com
+# with updates to make it actually work
+# By Allen C. Huffman
+# www.subethasoftware.com
+# https://github.com/allenhuffman/ShowDatesInPhotos
+#
+# Recurse through JPEG photos and look for unique Date/Time codes in photos.
+#
+# 2023-03-13 0.01 allenh - Project began.
+#
+# TODO:
+#
+# 1) Verbose mode, so default can be silent operation.
+#
+# TOFIX:
+#
+# 1) ...
+#
+###############################################################################
 
 # Function to print the help screen
 print_help() {
