@@ -6,7 +6,7 @@
 # with updates to make it actually work
 # By Allen C. Huffman
 # www.subethasoftware.com
-# https://github.com/allenhuffman/ShowDatesInPhotos
+# https://github.com/allenhuffman/EXIFPhotoScripts
 #
 # Recurse through JPEG photos and report ones that are missing Date/Time.
 #

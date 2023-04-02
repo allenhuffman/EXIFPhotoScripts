@@ -4,7 +4,7 @@
 # GPS Photo Sorter
 # Created by ChatGPT and Allen C. Huffman
 # www.subethasoftware.com
-# https://github.com/allenhuffman/gps-photo-sorter
+# https://github.com/allenhuffman/EXIFPhotoScripts
 #
 # Show unique focal lengths found in photos.
 #
@@ -29,7 +29,7 @@ import argparse
 # Parse command line arguments.
 parser = argparse.ArgumentParser(
     description='Show unique focal lengths found in photos.',
-    epilog='https://github.com/allenhuffman/gps-photo-sorter')
+    epilog='https://github.com/allenhuffman/EXIFPhotoScripts')
 parser.add_argument('path', nargs='?', default='.',
                     help='path to directory containing photos (default: current directory)')
 parser.add_argument('--recursive', '-r', action='store_true',
