@@ -11,4 +11,7 @@ My older camera did not have EXIF yet and, instead, used JFIF data. Back then, p
 ## showuniquefocallengths.py
 After looking at a camera that had manual zoom, I wondered if I'd miss that if I didn't have it. I had this script written to show me the percentage of zooms (focal lenghts) in the photos I take. One visit to Disneyland shows me using no zoom 84% of the time, meaning I use zoom for 16% of my photos. Having to manually zoom would be something I'd be doing more than one out of ten photos I take. I probably will not be getting a manual zoom camera any time soon.
 
+## showuniquelocations.py
+I just spent five days using Canon's CameraConnect app to collect GPS location data. This would later be uploaded to the camera so it could embed the GPS data in the JPG photos. Unfortunately, the new version has a severe bug. In 4300 photos, it only added 7 unique GPS locations! Huge fail. I had this script created to find out just how many photos had duplicates. :(  I hope you never need to use it for this purpose.
+
 More to come...
